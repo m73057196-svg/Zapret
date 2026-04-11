@@ -1,0 +1,23 @@
+html{
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-image:url('image/domain.gif') ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    background-position:center ;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+h1{
+    text-align: center;
+    vertical-align: top;
+}
