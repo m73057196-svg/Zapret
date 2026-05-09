@@ -5,7 +5,7 @@ html{
 }
 
 body{
-    background-image:url('image/domain.gif') ;
+    background-image:url('domain.gif');
     background-repeat:no-repeat ;
     background-size:cover ;
     background-position:center ;
@@ -17,7 +17,14 @@ body{
     flex-direction: column;
     gap: 12px;
 }
-h1{
+.container{
     text-align: center;
-    vertical-align: top;
+    position: absolute;
+    top:10px;
 }
+a{
+    color:red;
+    text-decoration: none;
+    
+}
+

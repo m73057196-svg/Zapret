@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    max-width: 500px;
+    width: 90%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #ff6b6b;
+    font-size: 2.5em;
+}
+
+.stats {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.stats div {
+    margin: 8px 0;
+    font-size: 1.2em;
+}
+
+.game-area {
+    margin: 30px 0;
+}
+
+.character {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff6b6b;
+    transition: transform 0.1s;
+}
+
+.character:active {
+    transform: scale(0.95);
+}
+
+.click-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 5px 0 #b21f1f;
+}
+
+.click-btn:hover {
+    background: #ff8c8c;
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 #b21f1f;
+}
+
+.click-btn:active {
+    transform: translateY(5px);
+    box-shadow: none;
+}
+
+.upgrades h2 {
+    margin-bottom: 15px;
+    color: #ffd700;
+}
+
+.upgrade-btn {
+    padding: 15px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: left;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.upgrade-btn:hover {
+    background: #45a049;
+}
+
+.upgrade-btn:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}
